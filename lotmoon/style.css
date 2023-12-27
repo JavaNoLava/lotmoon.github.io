@@ -5,4 +5,73 @@
 }
 html, body {
     margin: 0;
+    background-color: black;
+}
+/*HEADER*/
+header {
+    color: white;
+    padding: 0 20px;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+/*FEATURE*/
+.feature {
+    padding: 50px;
+    background-color: var(--sienna);
+    display: grid;
+    text-align: center;
+}
+.feature .ep-cover {
+    width: 400px;
+    border-radius: 15pt;
+    grid-column: 1;
+    box-shadow: 1px 1px 10px var(--brandy-punch)
+}
+.track-listing-and-info {
+    color: var(--sepia-black); 
+    grid-column: 2;
+}
+.track-listing-and-info ul {
+    font-family: 'Inconsolata', monospace;
+    font-size: 2.5rem;
+    letter-spacing: 10px;
+    line-height: 1.5;
+    list-style: none;
+    padding: 50% auto;
+}
+.track-listing-and-info li {
+    text-shadow: 1px 1px 5px var(--brandy-punch) ;
+}
+.track-listing-and-info h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+.icons {
+    grid-column: 1/3;
+    padding-top: 50px;
+}
+.icons h2 {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--sepia-black);
+    color: var(--sienna);;
+    border-radius: 20px;
+    padding: 5px
+}
+.icons img {
+    width: 200px;
+}
+/*ABOUT*/
+.about {
+    padding: 50px;
+    display: grid
+}
+.artist-bio {
+    padding: 0 50px;
+    color: white;
+    grid-column: 1;
+}
+.about iframe {
+    grid-column: 2;
 }
