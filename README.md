@@ -1,2 +1,2 @@
-# lotmoon.github.io
-Live on the Moon website repo
+# LOTMOON SITE
+### A webpage for the indie band 'Live on the Moon'
